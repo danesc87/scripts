@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Service
+Version=1.0
+ServiceTypes=KonqPopupMenu/Plugin
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=text/xml;
+Actions=xmlBeautifier;
+
+[Desktop Action xmlBeautifier]
+Name=XML Formatter
+Name[es_ES]=Formateador de XML
+Name[en_US]=XML Formatter
+Comment[es_ES]=Embellecedor de archivos XML
+Comment[en_US]=XML files beautifier
+TryExec=python3 ~/.config/xmlformatter-qt.py
+Exec=python3 ~/.config/xmlformatter-qt.py
+Icon=text-xml

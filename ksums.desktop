@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Service
+Version=1.0
+ServiceTypes=KonqPopupMenu/Plugin
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=all/allfiles;
+Actions=cheksumVerifier;
+
+[Desktop Action cheksumVerifier]
+Name=Checksum
+Name[es_ES]=Checksum
+Name[en_GB]=Checksum
+Comment[es]=Verficador sencillo de hash
+Comment[en_GB]=Simple hash verfier
+TryExec=~/.config/./ksums.sh
+Exec=~/.config/./ksums.sh
+Icon=locked
